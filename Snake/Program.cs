@@ -19,7 +19,7 @@ namespace Snake
             Point p2 = new Point();
             p2.x = 4;
             p2.y = 5;
-            p1.sym = '#';
+            p2.sym = '#';
             p2.Draw();
                     
 

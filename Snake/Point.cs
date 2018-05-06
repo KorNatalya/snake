@@ -1,4 +1,6 @@
-﻿namespace Snake
+﻿using System;
+
+namespace Snake
 {
     public class Point
     {
