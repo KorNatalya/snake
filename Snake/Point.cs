@@ -9,9 +9,9 @@ namespace Snake
 {
     public class Point
     {
-        private int x;
-        private int y;
-        private char sym;
+        public int x;
+        public int y;
+        public char sym;
 
         public Point()
         {
@@ -49,6 +49,11 @@ namespace Snake
             {
                 y = y + offset;
             }
+        }
+
+        public bool IsHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
         }
 
 
